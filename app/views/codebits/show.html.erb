@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @codebit.name %>
+</p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @codebit.code %>
+</p>
+
+<p>
+  <strong>Language:</strong>
+  <%= @codebit.language %>
+</p>
+
+<%= link_to 'Edit', edit_codebit_path(@codebit) %> |
+<%= link_to 'Back', codebits_path %>
